@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">QQ群聊助手</string>
+    <string name="app_name">超级助手</string>
+    <string name="qq_package">com.tencent.mobileqq</string>
+    <string name="wx_package">com.tencent.mm</string>
 </resources>

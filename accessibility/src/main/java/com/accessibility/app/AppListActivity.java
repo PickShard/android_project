@@ -1,20 +1,20 @@
-package com.accessibility;
+package com.accessibility.app;
 
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
-import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.graphics.drawable.Drawable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.TextureView;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
+
+import com.accessibility.R;
 
 import java.util.List;
 

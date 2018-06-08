@@ -1,4 +1,4 @@
-package com.accessibility.utils;
+package com.accessibility.app;
 
 import android.app.Application;
 import android.content.Context;
@@ -10,7 +10,6 @@ import android.content.Context;
 public class MyApplication extends Application {
 
     private static Context myApplication;
-    private static boolean enabled = true;
 
     @Override
     public void onCreate() {
@@ -23,12 +22,4 @@ public class MyApplication extends Application {
         return myApplication;
     }
 
-
-    public static boolean isEnabled() {
-        return enabled;
-    }
-
-    public static void setEnabled(boolean enabled) {
-        MyApplication.enabled = enabled;
-    }
 }
