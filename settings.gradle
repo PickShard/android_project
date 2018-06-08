@@ -1,0 +1,3 @@
+include ':app', ':accessibility', ':kotlin', ':ndk', ':myapplication', ':myapplication2', ':changeicon', ':openadb', ':app3'
+include ':openCVLibrary340'
+include ':openCVSamplefacedetection'
